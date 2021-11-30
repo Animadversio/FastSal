@@ -1,5 +1,5 @@
 import torch.nn as nn
-from torchvision.models.mobilenet import InvertedResidual, ConvBNReLU
+from torchvision.models.mobilenetv2 import InvertedResidual, ConvBNReLU
 
 from .adaptation_layer import adaptation_layers
 from .utils import mobilenetv2_pretrain
